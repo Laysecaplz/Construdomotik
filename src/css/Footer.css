@@ -1,0 +1,27 @@
+footer {
+  background-color: #001f3f; /* Azul oscuro */
+  color: white; /* Letras blancas */
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white; /* Color blanco por defecto */
+  margin: 0 10px;
+  font-size: 24px;
+  transition: transform 0.3s, color 0.3s; /* Transiciones suaves */
+}
+
+.social-icons a:hover {
+  transform: scale(1.2); /* Agranda el ícono */
+  color: yellow; /* Cambia el color a amarillo */
+}
+
+

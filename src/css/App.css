@@ -1,0 +1,123 @@
+/* Reset de márgenes y padding global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Cargar fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+/* Contenedor principal de la página */
+.app-container {
+  width: 100%;
+  text-align: center;
+}
+
+/* Estilo del header */
+.app-header {
+  background-color: #001f3f; /* Azul oscuro */
+  color: white;
+  padding: 50px 20px;
+}
+
+.app-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Sección de la galería */
+.gallery-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.gallery-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px; /* Espaciado entre letras */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), 0px 0px 25px rgba(255, 255, 255, 0.3); /* Sombra pesada */
+  /*animation: vibrar 0.2s infinite alternate; /* Efecto vibrante */
+}
+
+/* Definimos la animación de vibración */
+@keyframes vibrar {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+/* Contenedor de imágenes de la galería */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Cada elemento de la galería */
+.gallery-item {
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery-item p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Efecto al pasar el mouse sobre cada imagen */
+.gallery-item:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más fuerte */
+}
+
+/* Estilos del footer */
+.app-footer {
+  background-color: #001f3f;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.app-footer p {
+  font-size: 1rem;
+  margin: 0;
+}
