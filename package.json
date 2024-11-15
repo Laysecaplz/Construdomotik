@@ -2,7 +2,7 @@
   "name": "construdomotik",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://laysecaplz.github.io/Construdomotik",
+  "homepage": "http://laysecaplz.github.io/Construdomotik",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Home.css';
 
-ffunction Home() {
+function Home() {
   return (
    
 
