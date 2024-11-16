@@ -4,7 +4,7 @@ import '../css/Home.css'; // Importa el archivo de estilos de Home
 function Home() {
   return (
     <section className="gallery-section">
-      <h2>Bienvenidos</h2>
+       <h2 className="titulo-nosotros">Bienvenidos</h2>
       <div className="gallery-container">
         <div className="gallery-item">
           <img src={`${process.env.PUBLIC_URL}/images/con1.jpg`} alt="Proyecto 1" />
