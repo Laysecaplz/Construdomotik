@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Construdomotik/precache-manifest.9e0c1f4cc49c65fc227e5e43eb170a4d.js"
+  "/Construdomotik/precache-manifest.612d2aea33ad745793211373fd08077b.js"
 );
 
 self.addEventListener('message', (event) => {

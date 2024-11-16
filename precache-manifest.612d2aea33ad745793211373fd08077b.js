@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4cb6b45870814f33c589dde36a3734f",
+    "revision": "e1d37af3b55592fbcd5200ab219207d3",
     "url": "/Construdomotik/index.html"
   },
   {
-    "revision": "b1e37c53bffe77a968e1",
+    "revision": "6d5df7689a747e6cf179",
     "url": "/Construdomotik/static/css/main.62c918b1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Construdomotik/static/js/2.bb0370a4.chunk.js"
   },
   {
-    "revision": "b1e37c53bffe77a968e1",
-    "url": "/Construdomotik/static/js/main.11fe7ae1.chunk.js"
+    "revision": "6d5df7689a747e6cf179",
+    "url": "/Construdomotik/static/js/main.8fa110df.chunk.js"
   },
   {
     "revision": "9195bcd451bc3c30cb2e",
