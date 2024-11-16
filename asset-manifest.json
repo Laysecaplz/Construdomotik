@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Construdomotik/static/css/main.dc56a881.chunk.css",
-    "main.js": "/Construdomotik/static/js/main.3d9a9f8a.chunk.js",
-    "main.js.map": "/Construdomotik/static/js/main.3d9a9f8a.chunk.js.map",
+    "main.css": "/Construdomotik/static/css/main.70c0e1e7.chunk.css",
+    "main.js": "/Construdomotik/static/js/main.9b5e08e4.chunk.js",
+    "main.js.map": "/Construdomotik/static/js/main.9b5e08e4.chunk.js.map",
     "runtime~main.js": "/Construdomotik/static/js/runtime~main.fe7b83bb.js",
     "runtime~main.js.map": "/Construdomotik/static/js/runtime~main.fe7b83bb.js.map",
     "static/js/2.553e80e3.chunk.js": "/Construdomotik/static/js/2.553e80e3.chunk.js",
     "static/js/2.553e80e3.chunk.js.map": "/Construdomotik/static/js/2.553e80e3.chunk.js.map",
     "index.html": "/Construdomotik/index.html",
-    "precache-manifest.b9a05c104c477a2ec86450ae8decab64.js": "/Construdomotik/precache-manifest.b9a05c104c477a2ec86450ae8decab64.js",
+    "precache-manifest.9c42140dce88967c350aefa6b5d344fa.js": "/Construdomotik/precache-manifest.9c42140dce88967c350aefa6b5d344fa.js",
     "service-worker.js": "/Construdomotik/service-worker.js",
-    "static/css/main.dc56a881.chunk.css.map": "/Construdomotik/static/css/main.dc56a881.chunk.css.map"
+    "static/css/main.70c0e1e7.chunk.css.map": "/Construdomotik/static/css/main.70c0e1e7.chunk.css.map"
   }
 }
