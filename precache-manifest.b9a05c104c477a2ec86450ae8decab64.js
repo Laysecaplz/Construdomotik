@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c145a0390c2f7f1eb9d998fb74802896",
+    "revision": "2051b0417b34840f2ea9ca486c70cb46",
     "url": "/Construdomotik/index.html"
   },
   {
-    "revision": "3a99eb971556c9d6b09a",
-    "url": "/Construdomotik/static/css/main.30da0f24.chunk.css"
+    "revision": "c900085e74f465202570",
+    "url": "/Construdomotik/static/css/main.dc56a881.chunk.css"
   },
   {
     "revision": "fc109c89dc44537df42f",
     "url": "/Construdomotik/static/js/2.553e80e3.chunk.js"
   },
   {
-    "revision": "3a99eb971556c9d6b09a",
-    "url": "/Construdomotik/static/js/main.4f3aace7.chunk.js"
+    "revision": "c900085e74f465202570",
+    "url": "/Construdomotik/static/js/main.3d9a9f8a.chunk.js"
   },
   {
     "revision": "9195bcd451bc3c30cb2e",
