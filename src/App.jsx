@@ -37,7 +37,7 @@ function Home() {
           <p>Proyecto de construcción inteligente</p>
         </div>
         <div className="gallery-item">
-          <img src="/images/con2.jpg" alt="Proyecto 2" />
+          <img src="/logo.jpeg" alt="Proyecto 2" />
           <p>Integración de domótica en el hogar</p>
         </div>
         <div className="gallery-item">
