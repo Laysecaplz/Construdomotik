@@ -18,7 +18,7 @@ function App() {
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
-      <Home />
+   
       <Footer />
     </Router>
   );
@@ -37,7 +37,7 @@ function Home() {
           <p>Proyecto de construcción inteligente</p>
         </div>
         <div className="gallery-item">
-          <img src="/logo.jpeg" alt="Proyecto 2" />
+        <img src={`${process.env.PUBLIC_URL}/images/con1.jpg`} alt="Proyecto 9" />
           <p>Integración de domótica en el hogar</p>
         </div>
         <div className="gallery-item">
