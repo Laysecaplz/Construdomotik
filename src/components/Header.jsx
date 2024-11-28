@@ -4,22 +4,26 @@ import { Link } from 'react-router-dom';
 import '../css/Header.css'
 
 
+
 function Header() {
   return (
-    <header>
-      <div className="header-title">
-        <h1>ConstrudomotiK</h1>
+    <header className="header-container">
+      <div className="banner-container">
+        <img className="banner-image" src={`${process.env.PUBLIC_URL}/images/banner.png`} alt="Banner" />
+        <h1 className="header-title"></h1>
       </div>
       <nav className="header-nav">
-        <Link to="/">Inicio</Link>
-        <Link to="/servicios">Servicios</Link>
-        <Link to="/nosotros">Nosotros</Link>
-        <Link to="/contacto">Contacto</Link>
+        <a href="/">Inicio</a>
+        <a href="/servicios">Servicios</a>
+        <a href="/nosotros">Nosotros</a>
+        <a href="/contacto">Contacto</a>
       </nav>
     </header>
   );
 }
 
 export default Header;
+
+
 
 

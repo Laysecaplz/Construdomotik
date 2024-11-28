@@ -32,5 +32,56 @@ header {
   transform: scale(1.1); /* Aumenta ligeramente el tamaño del texto al pasar el ratón */
 }
 
+/* Contenedor del Header */
+.header-container {
+  width: 100%;
+}
 
-  
+/* Contenedor del banner */
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Ajusta la altura del banner */
+  overflow: hidden; /* Evita que la imagen salga del contenedor */
+}
+
+/* Imagen del banner */
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra todo el área del contenedor */
+}
+
+/* Título en el banner */
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+/* Navegación debajo del banner */
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00274d; /* Azul oscuro */
+  padding: 15px 0;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.header-nav a:hover {
+  color: yellow;
+}
