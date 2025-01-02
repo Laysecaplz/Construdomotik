@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className="header-container">
       <div className="banner-container">
-        <img className="banner-image" src={`${process.env.PUBLIC_URL}/images/banner.png`} alt="Banner" />
+        <img className="banner-image" />
         <h1 className="header-title"></h1>
       </div>
       <nav className="header-nav">
